@@ -9,7 +9,7 @@ export const UserIconWithName = (props) => {
             <SName>{name}</SName>
         </SContainer>
     );
-}
+};
 
 const SContainer = styled.div`
     text-align: center;

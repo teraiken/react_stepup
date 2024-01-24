@@ -17,7 +17,6 @@ const SContainer = styled.div`
     display: flex;
     align-items: center;
 `;
-
 const SButtonWrapper = styled.div`
     padding-left: 8px;
 `;

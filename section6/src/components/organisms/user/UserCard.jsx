@@ -8,6 +8,7 @@ export const UserCard = (props) => {
     return (
         <Card>
             <UserIconWithName image={user.image} name={user.name} />
+
             <SDl>
                 <dt>メール</dt>
                 <dd>{user.email}</dd>
@@ -33,4 +34,4 @@ const SDl = styled.dl`
         padding-bottom: 8px;
         overflow-wrap: break-word;
     }
-`
+`;

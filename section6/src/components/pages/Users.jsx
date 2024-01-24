@@ -20,7 +20,9 @@ export const Users = () => {
     return (
         <SContainer>
             <h2>ユーザー一覧</h2>
+
             <SearchInput />
+
             <SUserArea>
                 {users.map((user) => (
                     <UserCard key={user.id} user={user} />
@@ -42,4 +44,4 @@ const SUserArea = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
-`
+`;
